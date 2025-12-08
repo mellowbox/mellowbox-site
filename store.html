@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mellowbox — Digital Toolkits for Real Life. Practical, printable, faceless tools that solve everyday problems instantly." />
+  <title>Mellowbox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <span class="logo-script">Mellowbox</span>
+    </a>
+    <button class="hamburger" aria-label="Toggle menu" id="hamburgerBtn">☰</button>
+    <nav id="siteNav" class="nav">
+      <a href="store.html">Store</a>
+      <a href="freebies.html">Freebies</a>
+      <a href="affiliate.html">Useful Finds</a>
+      <a href="categories/parenting.html">Categories</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+<section class="container pad-block">
+  <h1>All Digital Toolkits</h1>
+  <div class="filters">
+    <button class="chip active" data-filter="all">All</button>
+    <button class="chip" data-filter="parenting">Parenting</button>
+    <button class="chip" data-filter="adults">Adults</button>
+    <button class="chip" data-filter="students">Students</button>
+    <button class="chip" data-filter="scripts">Scripts</button>
+    <button class="chip" data-filter="calculators">Calculators</button>
+  </div>
+
+  <div class="product-grid" id="storeGrid">
+    <!-- Example product cards; duplicate and edit weekly -->
+    <article class="product-card" data-category="parenting">
+      <img src="assets/images/sample-product-cover.jpg" alt="Safe Body Guide">
+      <h3>Safe Body Guide for Kids</h3>
+      <p class="muted small">Teach body safety with zero fluff.</p>
+      <p class="price">₹399</p>
+      <a class="btn btn-light" href="product-folder/safe-body-guide.html">View Product</a>
+    </article>
+
+    <article class="product-card" data-category="students">
+      <img src="assets/images/sample-product-3.jpg" alt="Study Focus Toolkit">
+      <h3>Study Focus Toolkit</h3>
+      <p class="muted small">Clear, printable systems for weekly focus.</p>
+      <p class="price">₹249</p>
+      <a class="btn btn-light" href="product-folder/study-focus-toolkit.html">View Product</a>
+    </article>
+
+    <article class="product-card" data-category="adults">
+      <img src="assets/images/sample-product-4.jpg" alt="Calm Home Toolkit">
+      <h3>Calm Home Toolkit</h3>
+      <p class="muted small">Small actions for a calmer home, today.</p>
+      <p class="price">₹349</p>
+      <a class="btn btn-light" href="product-folder/calm-home-toolkit.html">View Product</a>
+    </article>
+  </div>
+
+  <p class="muted center pad-block small">More products coming every week.</p>
+</section>
+</main>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <h4>Contact</h4>
+        <p>Email: <a href="mailto:hellomellowbox@gmail.com">hellomellowbox@gmail.com</a></p>
+        <p>Support: Mon–Fri, 10am–6pm IST</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <ul class="plain">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-badge">
+        <img src="assets/mascot/mascot-tiny.svg" alt="Mellowbox mascot" />
+      </div>
+    </div>
+    <p class="tiny-note">Powered by Razorpay • Hosted on GitHub Pages</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
